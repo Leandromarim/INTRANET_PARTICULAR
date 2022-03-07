@@ -1,0 +1,133 @@
+.container-titulo-tabela {
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    top: 70px;
+}
+
+div.table-centralizado {
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    top: 100px;
+}
+
+main {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+main section span.titulo-docs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    color: #525486;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+main table.table {
+    display: flex;
+    position: relative;
+    top: 70px;
+    background-color: #fff;
+}
+
+thead th.titulo-setor {
+    color: #fff;
+    background-color: #525486;
+    text-transform: uppercase;
+    border: 1px solid #525486;
+    border-radius: 10px 0 10px 0;
+    width: 900px;
+}
+
+thead th.titulo-setor h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+thead th.titulo-setor:hover {
+    background-color: #525486a8;
+    color: #fff;
+}
+
+th .titulo {
+    display: flex;
+    position: relative;
+}
+
+th.titulo span,
+td.celulas span,
+th.titulo-setor h6 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+}
+
+th.titulo {
+    color: #525486;
+    text-transform: uppercase;
+    border: 1px solid #525486;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+th.titulo:hover {
+    color: #fff;
+    background-color: #525486;
+}
+
+td {
+    width: 0.5rem;
+    font-size: 17px;
+}
+
+tbody tr td.celulas,
+th.titulo {
+    color: #525486;
+    border: 2px solid #525486;
+}
+
+tbody tr.linha,
+thead tr.linha {
+    border: 2px solid #525486;
+}
+
+td .btn-visualizar {
+    background-color: #525486;
+    width: 160px;
+    height: 35px;
+    color: #fff;
+    border-radius: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+td .btn-visualizar:hover {
+    background-color: #fff;
+    color: #525486;
+    font-weight: bold;
+    border-radius: 10px 0 10px 0;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+p.de-volta-ao-topo a {
+    color: #525486;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}

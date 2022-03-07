@@ -1,0 +1,18 @@
+div.construcao-manuais {
+    display: flex;
+    position: relative;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    bottom: 220px;
+}
+
+h1.construcao {
+    color: #525486;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+/*---------------------------------------------------------*/

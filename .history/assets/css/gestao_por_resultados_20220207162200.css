@@ -1,0 +1,23 @@
+div.container-gestao {
+    display: flex;
+    position: relative;
+}
+
+div.card-gestao-1{
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+}
+div.card-gestao-2{
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}

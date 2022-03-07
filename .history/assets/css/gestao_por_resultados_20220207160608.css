@@ -1,0 +1,8 @@
+div.card-gestao-1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}

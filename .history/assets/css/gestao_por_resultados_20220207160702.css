@@ -1,0 +1,16 @@
+div.card-gestao-1{
+    display: flex;
+    position: inline;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+div.card-gestao-2{
+    display: flex;
+    position: inline;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}

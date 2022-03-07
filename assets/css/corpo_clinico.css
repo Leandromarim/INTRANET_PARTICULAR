@@ -1,0 +1,95 @@
+section.container-foto {
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+
+.container-text-galeria {
+    background-color: #525486;
+    border-radius: 20px 0 20px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    top: 20px;
+}
+
+.text-titulo-foto {
+    color: #fff;
+}
+
+.text-paragrafo-foto {
+    color: #fff;
+}
+
+.container-foto {
+    border-radius: 20px 0 20px 0;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.col {
+    border-radius: 100%;
+}
+
+div.container-card div.card {
+    border-radius: 100%;
+}
+
+div.card img.foto {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 0 20px 0;
+    border: 1px solid #525486;
+}
+
+.container-cards-fotos {
+    border-radius: 40px 0 40px 0;
+}
+
+.card-foto-medicos {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+div .zoom-galeria-fotos img.foto {
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+div .zoom-galeria-fotos img.foto:hover {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+div.card-body p.card-text-foto {
+    color: #525486;
+    text-align: center;
+}
+
+div.card .legenda-foto {
+    background-color: #525486;
+}
+
+p.de-volta-ao-topo a {
+    color: #525486;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}

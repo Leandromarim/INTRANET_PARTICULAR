@@ -1,0 +1,65 @@
+.container-card {
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container-card img {
+    border-radius: 20px 0 20px 0;
+}
+
+div.card {
+    position: relative;
+    display: flex;
+    width: 20rem;
+    margin: 5px;
+    padding: 1px;
+    background-color: #525486;
+    border-radius: 20px 0 20px 0;
+    top: 10px;
+}
+
+#card-text {
+    display: flex;
+    position: relative;
+    color: white;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.titulo-docs h2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #525486;
+}
+
+main table.table {
+    background-color: #fff;
+}
+
+th.celula,
+td.coluna {
+    color: #525486;
+    text-transform: uppercase;
+}
+
+th {
+    border-radius: 20px;
+}
+
+td .btn-visualizar {
+    background-color: #525486;
+    color: #fff;
+    border-radius: 10px 0 10px 0;
+}
+
+td .btn-visualizar:hover {
+    background-color: #fff;
+    color: #525486;
+}

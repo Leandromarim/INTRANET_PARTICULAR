@@ -1,0 +1,48 @@
+div.container-gestao {
+    display: inline-block;
+    position: relative;
+}
+
+div.titulo-gestao{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+div.titulo-gestao h1{
+    color: #525486;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+div.card-gestao-1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+    width: 14rem;
+    height: 14rem;
+}
+div.card-gestao-2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    width: 14rem;
+    height: 14rem;
+}
+
+img .img-gestao-1{
+    width: 18rem;
+    height: 18rem;
+}
+img .img-gestao-2{
+    width: 14rem;
+    height: 14rem;
+}

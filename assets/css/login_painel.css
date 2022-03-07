@@ -1,0 +1,163 @@
+    *body,
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body.background {
+        background-image: url('/image/login/papel_de_parede/Foto_96.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        display: flex;
+    }
+    
+    section.login {
+        display: inline-flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    div.contorno {
+        display: flex;
+        position: relative;
+        flex-flow: row;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        border: 4px solid #fff;
+        border-radius: 20px 0 20px 0;
+        width: 45vh;
+        height: 60vh;
+        background-color: #525486;
+        margin-top: 5px;
+    }
+    
+    div.container-icon {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        bottom: 140px;
+    }
+    
+    div.input {
+        display: inline-flex;
+        margin: 3px;
+        border: 2px solid #fff;
+        border-radius: 10px 0 10px 0;
+    }
+    
+    div.icon-input {
+        display: flex;
+        position: relative;
+        width: 20px;
+        right: 32px;
+        top: 4px;
+    }
+    
+    img.icon-user {
+        width: 120px;
+        height: 120px;
+        border-radius: 100px;
+    }
+    
+    div.input {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-content: center;
+        width: 320px;
+        height: 45px;
+        margin-bottom: 10px;
+        border: 2px solid #525486;
+    }
+    
+    div.input input {
+        display: flex;
+        position: absolute;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        width: 320px;
+        height: 45px;
+        border: 2px solid #525486;
+    }
+    
+    div.icon-input img {
+        display: flex;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 165px;
+        top: 2px;
+    }
+    
+    form {
+        display: inline;
+        position: fixed;
+        bottom: 220px;
+        font-size: 14px;
+    }
+    
+    input {
+        display: flex;
+        position: relative;
+        border-radius: 10px 0 10px 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .input input {
+        display: flex;
+        position: relative;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        background-color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .input input:hover {
+        background-color: #8a8ac2;
+    }
+    
+    div.submit {
+        display: flex;
+        position: relative;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    div.submit input {
+        display: flex;
+        position: relative;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100px;
+        height: 40px;
+        background-color: #fff;
+        color: #525486;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    div.submit input:hover {
+        background-color: green;
+        color: #fff;
+        border: 2px solid #fff;
+    }

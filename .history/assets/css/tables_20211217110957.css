@@ -1,0 +1,52 @@
+section .table-centralizado{
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.tabela {
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+thead h2.titulo-tabela {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+main table.table {
+    background-color: #fff;
+}
+
+th.celula,
+td.coluna {
+    color: #525486;
+    text-transform: uppercase;
+}
+
+th {
+    border-radius: 20px;
+}
+
+td .btn-visualizar {
+    background-color: #525486;
+    color: #fff;
+    border-radius: 10px 0 10px 0;
+}
+
+td .btn-visualizar:hover {
+    background-color: #fff;
+    color: #525486;
+}

@@ -1,0 +1,95 @@
+nav.navbar {
+    background-color: #525486;
+    width: 100%;
+    height: auto;
+}
+
+nav .button {
+    background-color: #272863b7;
+    border-radius: 15px 0 15px 0;
+    padding: 6px;
+    margin: 1px;
+}
+
+nav .button:hover{
+    background-color: #fff;
+    color: #525486;
+}
+.container-logo {
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    right: 150px;
+}
+
+section img.logo {
+    position: relative;
+    display: flex;
+    height: 20px;
+    width: 100px;
+    left: 8rem;
+}
+
+nav div.secao-navbar {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+a.item-link-nav {
+    display: flex;
+    position: relative;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #525486;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px 0 10px 0;
+}
+
+a.item-link-nav:hover {
+    color: #fff;
+    background-color: #525486;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.404);
+    color: black;
+}
+
+nav ul li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.d-flex {
+    margin: 0 0 0 5px;
+}
+
+button.button-pesquisar{
+    background-color: #525486;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px 0 10px 0;
+}
+
+button.button-pesquisar:hover{
+    background-color: #fff;
+    color: #525486;
+    border: 2px solid #525486;
+    border-radius: 10px 0 10px 0;
+}
